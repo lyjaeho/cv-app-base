@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>xstartup</groupId>
+        <artifactId>cv-parent-app-standalone</artifactId>
+        <version>1.1.137.44-CV-RDC</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>cv-app-base</artifactId>
+    <name>cv-app-base</name>
+    <version>1.0.1-SNAPSHOT</version>
+    <properties>
+        <xpub.version>1.0.1-SNAPSHOT</xpub.version>
+        <mainClass>cv.app.base.CvBaseApplication</mainClass>
+        <VERSION>1.0.1</VERSION>
+    </properties>
+    <repositories>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/78700-release-GRHFzX/</url>
+        </repository>
+    </repositories>
+</project>
